@@ -18,10 +18,10 @@ in those cases you can use the static font files for Plus Jakarta Sans:
 Get started
 -----------
 
-1. Install the font files you want to use.
+1. Install the font files you want to use
  
 2. Use your app's font picker to view the font family and all the
-available styles.
+available styles
 
 Learn more about variable fonts
 -------------------------------
