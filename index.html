@@ -1,53 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style_mobile.css" />
   <title>Frontend Mentor | Notifications page</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-    .body {font-size: large;}
-    .body {font-family: 'Courier New', Courier, monospace;}
-  </style>
 </head>
+
 <body>
+  <main class="container">
+    <article>
+      <section class="content-header">
+        <div class="content-header-left">
+          <h1>Notifications</h1>
 
-  Notifications 3 <br>
-
-  Mark all as read <br>
-
-  Mark Webber reacted to your recent post My first tournament today! <br>
-  1m ago <br>
-
-  Angela Gray followed you <br>
-  5m ago <br>
-
-  Jacob Thompson has joined your group Chess Club <br>
-  1 day ago <br>
-
-  Rizky Hasanuddin sent you a private message <br>
-  5 days ago <br>
-  Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and 
-  I'm already having lots of fun and improving my game. <br>
-
-  Kimberly Smith commented on your picture <br>
-  1 week ago <br>
-
-  Nathan Peterson reacted to your recent post 5 end-game strategies to increase your win rate <br>
-  2 weeks ago <br>
-
-  Anna Kim left the group Chess Club <br>
-  2 weeks ago <br>
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Guocong Pan</a>.
-  </div>
+          <div class="badge"></div>
+        </div>
+        <div class="content-header-right">
+          <p class="like-link">Mark all as read</p>
+        </div>
+      </section>
+      <section class="showPosts"></section>
+    </article>
+  </main>
+  <script type="module" src="notifications.js"></script>
 </body>
+
 </html>
