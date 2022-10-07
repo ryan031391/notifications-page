@@ -1,0 +1,220 @@
+@font-face {
+  font-family: PlusJakartaSans;
+  src: url(./assets/fonts/PlusJakartaSans-VariableFont_wght.ttf);
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 500;
+  background-color: hsl(205, 33%, 90%);
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+article {
+  background-color: hsl(0, 0%, 100%);
+  width: 45.6rem;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 0.7rem;
+}
+
+.content-header {
+  height: 5.7rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.content-header-left {
+  width: 21rem;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.content-header-right {
+  width: 21rem;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+h1 {
+  font-weight: 700;
+  padding-left: 0.2rem;
+  color: hsl(224, 21%, 14%);
+  font-size: 1.4rem;
+  letter-spacing: 0.068rem;
+}
+
+.badge {
+  background-color: hsl(219, 85%, 26%);
+  width: 1.92rem;
+  height: 1.47rem;
+  border-radius: 0.4rem;
+  color: white;
+  font-size: 1rem;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 0.75rem;
+}
+
+.like-link {
+  font-size: 1rem;
+  margin-right: 0.2rem;
+  cursor: pointer;
+  color: hsl(219, 12%, 42%);
+}
+
+.read-mark {
+  padding-left: 0.5rem;
+}
+
+.vue {
+  visibility: visible;
+}
+
+.no-vue {
+  visibility: hidden;
+}
+
+.grey {
+  background-color: hsl(210, 60%, 98%);
+}
+
+.white {
+  background-color: white;
+}
+
+.showPosts {
+  width: 42rem;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+}
+
+.post-container {
+  display: flex;
+  justify-content: left;
+  width: 41.7rem;
+  margin-bottom: 0.65rem;
+  border-radius: 10px;
+}
+
+.post-container-left {
+  width: 5rem;
+  min-width: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 1.2rem;
+}
+
+.avatar {
+  width: 2.8rem;
+  height: auto;
+  cursor: pointer;
+}
+
+.post-container-right {
+  display: flex;
+  flex-direction: column;
+  padding: 0.2rem 0.2rem;
+}
+
+.post-container-right p.info {
+  margin: 0;
+  margin-top: 1rem;
+}
+
+.name {
+  font-weight: 800;
+  color: hsl(224, 21%, 14%);
+  letter-spacing: 0.015rem;
+  padding-right: 0.5rem;
+  cursor: pointer;
+}
+
+.name:hover {
+  color: hsl(219, 85%, 26%);
+}
+
+.post {
+  font-weight: 800;
+  padding-left: 0.5rem;
+  letter-spacing: 0.03rem;
+  color: hsl(219, 12%, 42%);
+  cursor: pointer;
+}
+
+.post:hover {
+  color: hsl(219, 85%, 26%);
+}
+
+.action {
+  color: hsl(219, 14%, 63%);
+}
+
+.group {
+  font-weight: 700;
+  padding-left: 0.5rem;
+  color: hsl(219, 12%, 42%);
+  cursor: pointer;
+}
+
+.group:hover {
+  color: hsl(219, 85%, 26%);
+}
+
+.post-container-right p.time {
+  margin: 0;
+  margin-top: 0.2rem;
+  margin-bottom: 0.67rem;
+  color: hsl(219, 14%, 63%);
+}
+
+.message {
+  margin-top: -0.55rem;
+  margin-left: 5.2rem;
+  height: 5.8rem;
+  width: 35.4rem;
+  border: 1px solid hsl(205, 33%, 90%);
+  margin-bottom: 1.6rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.message:hover {
+  background-color: hsl(205, 33%, 90%);
+}
+.message p {
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  padding: 0.8rem 1.2rem;
+  letter-spacing: 0.008rem;
+  color: hsl(219, 12%, 42%);
+}
+
+.image {
+  width: 3rem;
+  height: auto;
+  margin-top: 0.6rem;
+  margin-left: 5.5rem;
+}
